@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6ebf4f52-7581-42f2-bf54-3a1cb71d1f79" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.collections@0.15.0-preview.21/Unity.Collections/NativeList.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Assets/Scripts/Game/Events/Data/PlayerAndWallCollisionEvent.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Game/Components/PhysicsLayer.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Framework/Physics/Utils.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Framework/Physics/Systems/PhysicsCleanupSystem.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Framework/Physics/Systems/CollisionSystem.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Framework/Physics/Systems/TriggerSystem.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Framework/Networking/Tags/Server.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Framework/Networking/Tags/Client.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Game/Physics/CollisionHandlerRegistrationSystem.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Game/Tags/DisabledSystem.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Framework/Networking/Tags/Predicted.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Framework/Networking/Components/Replicated.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Framework/Networking/Components/PlayerInfo.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Framework/Networking/Components/Predicted.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Game/Systems/LocalPlayerMoveSystem.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Game/Systems/LocalPlayerRotateSystem.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Game/Systems/LocalPlayerShootSystem.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Game/Components/PlayerInput.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Game/Systems/PlayerInputSystem.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Framework/Networking/Systems/ServerSystem.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Framework/Networking/Systems/ClientSystem.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Framework/Networking/Systems/Client/ClientSystem.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Framework/Networking/Systems/Client/PlayerInputSystem.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Framework/Networking/Messages/Messages.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Framework/Networking/Components/PlayerInput.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Framework/Networking/InputBuffer.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Framework/Networking/Systems/Server/ServerSystem.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Framework/Networking/Managers/ServerManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Framework/Networking/Managers/ClientManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Framework/Networking/Managers/NetworkIdManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Framework/Networking/NetworkIdManager.cs" />
+      <option value="$PROJECT_DIR$/.gitignore" />
+    </changedPaths>
+  </component>
+  <component name="ProjectId" id="1sWzATAcQZv0rxTMaf7oTDUmhPc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6ebf4f52-7581-42f2-bf54-3a1cb71d1f79" name="Default Changelist" comment="" />
+      <created>1621002996365</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1621002996365</updated>
+      <workItem from="1621003032501" duration="16733000" />
+      <workItem from="1621171772986" duration="14308000" />
+      <workItem from="1621375709879" duration="24104000" />
+      <workItem from="1621811901983" duration="243000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
