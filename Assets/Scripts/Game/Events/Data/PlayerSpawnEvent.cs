@@ -4,7 +4,7 @@ using Unity.Transforms;
 namespace Game.Events.Data
 {
     [GenerateAuthoringComponent]
-    public struct SpawnEvent : IComponentData
+    public struct PlayerSpawnEvent : IComponentData
     {
         public Translation Translation;
     }

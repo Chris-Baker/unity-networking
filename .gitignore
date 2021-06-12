@@ -73,3 +73,6 @@ crashlytics-build.properties
 # Third party plugins
 /[Aa]ssets/[Tt]hirdparty
 /[Aa]ssets/[Tt]hirdparty.meta
+
+# IDE
+.idea/

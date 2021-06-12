@@ -11,6 +11,9 @@ namespace Framework.Networking.Messages
         public const byte PlayerInput           = 3;
         public const byte ReplicatedSnapshot    = 4;
         public const byte PredictedSnapshot     = 5;
+        public const byte NetworkId             = 6;
+        public const byte SpawnEntity           = 7;
+        public const byte PossessEntity         = 8;
     }
     
     public struct ConnectionInfoMessage

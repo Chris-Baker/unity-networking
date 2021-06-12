@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Projects\UnityProjects\topdown-networking" t="IncludeRecursive">
-      <e p=".gitignore" t="Include" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
@@ -17,22 +16,23 @@
             </e>
             <e p="Networking" t="Include">
               <e p="Components" t="Include">
+                <e p="InputBuffer.cs" t="Include" />
                 <e p="PlayerInfo.cs" t="Include" />
                 <e p="PlayerInput.cs" t="Include" />
+                <e p="PlayerSlot.cs" t="Include" />
                 <e p="Predicted.cs" t="Include" />
                 <e p="Replicated.cs" t="Include" />
               </e>
-              <e p="InputBuffer.cs" t="Include" />
               <e p="Messages" t="Include">
                 <e p="Messages.cs" t="Include" />
               </e>
-              <e p="NetworkIdManager.cs" t="Include" />
               <e p="Systems" t="Include">
                 <e p="Client" t="Include">
                   <e p="ClientSystem.cs" t="Include" />
                   <e p="PlayerInputSystem.cs" t="Include" />
                 </e>
                 <e p="Server" t="Include">
+                  <e p="NetworkIdSystem.cs" t="Include" />
                   <e p="ServerSystem.cs" t="Include" />
                 </e>
               </e>
@@ -68,17 +68,20 @@
               <e p="MoveSpeed.cs" t="Include" />
               <e p="MoveTargetRotation.cs" t="Include" />
               <e p="PhysicsLayer.cs" t="Include" />
+              <e p="Prefabs.cs" t="Include" />
               <e p="Weapon.cs" t="Include" />
             </e>
             <e p="Events" t="Include">
               <e p="Data" t="Include">
                 <e p="BulletAndWallCollisionEvent.cs" t="Include" />
                 <e p="PlayerAndWallCollisionEvent.cs" t="Include" />
+                <e p="PlayerSpawnEvent.cs" t="Include" />
                 <e p="ShootEvent.cs" t="Include" />
                 <e p="SpawnEvent.cs" t="Include" />
               </e>
               <e p="Handlers" t="Include">
                 <e p="BulletAndWallCollisionEventHandler.cs" t="Include" />
+                <e p="PlayerSpawnEventHandler.cs" t="Include" />
                 <e p="ShootEventHandler.cs" t="Include" />
               </e>
             </e>
@@ -96,6 +99,7 @@
             <e p="Tags" t="Include">
               <e p="Character.cs" t="Include" />
               <e p="DisabledSystem.cs" t="Include" />
+              <e p="Player.cs" t="Include" />
             </e>
           </e>
         </e>
