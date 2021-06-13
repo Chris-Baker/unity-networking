@@ -4,6 +4,7 @@ using Unity.Entities;
 
 namespace Framework.Physics.Systems
 {
+    [UpdateInGroup(typeof(FixedStepSimulationSystemGroup))]
     [UpdateBefore(typeof(TriggerSystem))]
     public class PhysicsSystem : ComponentSystem
     {

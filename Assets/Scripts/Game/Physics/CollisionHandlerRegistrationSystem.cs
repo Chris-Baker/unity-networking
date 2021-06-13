@@ -11,7 +11,7 @@ namespace Game.Physics
     {
         protected override void OnStartRunning()
         {
-            CollisionHandlers.Handlers.Add(
+            CollisionHandlers.AddHandler(
                 Utils.CollisionPair((int) CollisionGroup.PlayerBullet, (int) CollisionGroup.Wall), (collision, type, entities) =>
                 {
                     // raise a game event
@@ -22,7 +22,7 @@ namespace Game.Physics
                     }, type);
                 });
             
-            CollisionHandlers.Handlers.Add(
+            CollisionHandlers.AddHandler(
                 Utils.CollisionPair((int) CollisionGroup.Player, (int) CollisionGroup.Wall), (collision, type, entities) =>
                 {
                     Debug.Log("Boing!");
@@ -33,7 +33,7 @@ namespace Game.Physics
 
         protected override void OnDestroy()
         {
-            CollisionHandlers.Handlers.Clear();
+            CollisionHandlers.ClearHandlers();
         }
     }
 }

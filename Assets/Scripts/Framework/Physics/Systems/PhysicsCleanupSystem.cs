@@ -4,11 +4,13 @@ using Game.Components;
 using Game.Events.Data;
 using Unity.Collections;
 using Unity.Entities;
+using Unity.NetCode;
 using UnityEngine;
 using Collision = Framework.Physics.Components.Collision;
 
 namespace Framework.Physics.Systems
 {
+    [UpdateInGroup(typeof(FixedStepSimulationSystemGroup))]
     [UpdateAfter(typeof(TriggerSystem))]
     public class PhysicsCleanupSystem : ComponentSystem
     {
@@ -56,9 +58,9 @@ namespace Framework.Physics.Systems
             int pair = Utils.CollisionPair((int) groupA, (int) groupB);
 
             // handle the event
-            if (CollisionHandlers.Handlers.ContainsKey(pair))
+            if (CollisionHandlers.Exists(pair))
             {
-                CollisionHandlers.Handlers[pair].Invoke(collision, type, physicsLayerEntities);
+                CollisionHandlers.GetHandler(pair).Invoke(collision, type, physicsLayerEntities);
             }
         }
     }

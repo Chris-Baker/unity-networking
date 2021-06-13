@@ -2,12 +2,14 @@ using Game.Components;
 using Unity.Collections;
 using Unity.Entities;
 using Unity.Jobs;
+using Unity.NetCode;
 using Unity.Physics;
 using Unity.Physics.Systems;
 using Collision = Framework.Physics.Components.Collision;
 
 namespace Framework.Physics.Systems
 {
+    [UpdateInGroup(typeof(FixedStepSimulationSystemGroup))]
     [UpdateAfter(typeof(CollisionSystem))]
     public class TriggerSystem : JobComponentSystem
     {

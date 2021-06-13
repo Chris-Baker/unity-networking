@@ -2,30 +2,58 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ebf4f52-7581-42f2-bf54-3a1cb71d1f79" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Framework/Networking/Systems/Server/NetworkIdSystem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Framework/Networking/Systems/Server/NetworkIdSystem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Components/Prefabs.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Components/Prefabs.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Events/Data/PlayerSpawnEvent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Events/Data/PlayerSpawnEvent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Events/Handlers/PlayerSpawnEventHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Events/Handlers/PlayerSpawnEventHandler.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Tags/Player.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Tags/Player.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Tags/MovableCubeComponent.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.topdown-networking/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.topdown-networking/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.topdown-networking/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.topdown-networking/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.topdown-networking/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.topdown-networking/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/TestScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TestScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Framework/Networking/InputBuffer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Framework/Networking/Components/InputBuffer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Framework/Networking/InputBuffer.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Framework/Networking/Components/InputBuffer.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Framework/Networking/Messages/Messages.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Framework/Networking/Messages/Messages.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Framework/Networking/NetworkIdManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Framework/Networking/NetworkIdManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Framework/Networking/Systems/Client/ClientSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Framework/Networking/Systems/Client/ClientSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Framework/Networking/Systems/Server/ServerSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Framework/Networking/Systems/Server/ServerSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Events/Data/SpawnEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Events/Data/SpawnEvent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Systems/MovementSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Systems/MovementSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Framework/Networking.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Framework/Networking/Components.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Framework/Networking/Components/InputBuffer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Framework/Networking/Components/InputBuffer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Framework/Networking/Components/PlayerInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Framework/Networking/Components/PlayerInfo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Framework/Networking/Components/PlayerInput.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Framework/Networking/Components/PlayerInput.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Framework/Networking/Components/PlayerSlot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Framework/Networking/Components/PlayerSlot.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Framework/Networking/Components/Predicted.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Framework/Networking/Components/Predicted.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Framework/Networking/Components/Replicated.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Framework/Networking/Components/Replicated.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Framework/Networking/Messages.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Framework/Networking/Messages/Messages.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Framework/Networking/Messages/Messages.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Framework/Networking/Systems.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Framework/Networking/Systems/Client.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Framework/Networking/Systems/Client/ClientSystem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Framework/Networking/Systems/Client/ClientSystem.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Framework/Networking/Systems/Client/PlayerInputSystem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Framework/Networking/Systems/Client/PlayerInputSystem.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Framework/Networking/Systems/Server.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Framework/Networking/Systems/Server/NetworkIdSystem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Framework/Networking/Systems/Server/NetworkIdSystem.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Framework/Networking/Systems/Server/ServerSystem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Framework/Networking/Systems/Server/ServerSystem.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Framework/Networking/Tags.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Framework/Networking/Tags/Client.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Tags/MovableCubeComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Framework/Networking/Tags/Client.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Framework/Networking/Tags/Server.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Framework/Networking/Tags/Server.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Framework/Physics/CollisionHandlers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Framework/Physics/CollisionHandlers.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Framework/Physics/Systems/CollisionSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Framework/Physics/Systems/CollisionSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Framework/Physics/Systems/PhysicsCleanupSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Framework/Physics/Systems/PhysicsCleanupSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Framework/Physics/Systems/PhysicsSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Framework/Physics/Systems/PhysicsSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Framework/Physics/Systems/TriggerSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Framework/Physics/Systems/TriggerSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Components/Prefabs.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Components/Prefabs.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Events/Data/PlayerSpawnEvent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Events/Data/PlayerSpawnEvent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Events/Handlers/PlayerSpawnEventHandler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Events/Handlers/PlayerSpawnEventHandler.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Game/Physics/CollisionHandlerRegistrationSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Game/Physics/CollisionHandlerRegistrationSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +64,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@0.17.0-preview.41/Unity.Entities/Stubs/Unity/Debug.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.collections@0.15.0-preview.21/Unity.Collections/NativeList.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E81851A0-DC73-4A79-AFA9-F5B7273162BE/3e/11b29a13/SerializableAttribute.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -44,12 +73,8 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Game/Events/Data/PlayerAndWallCollisionEvent.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Game/Components/PhysicsLayer.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Framework/Physics/Utils.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Framework/Physics/Systems/PhysicsCleanupSystem.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Framework/Physics/Systems/CollisionSystem.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Framework/Physics/Systems/TriggerSystem.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Framework/Networking/Tags/Server.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Framework/Networking/Tags/Client.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Game/Physics/CollisionHandlerRegistrationSystem.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Game/Tags/DisabledSystem.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Framework/Networking/Tags/Predicted.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Framework/Networking/Components/Replicated.cs" />
@@ -82,6 +107,13 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Game/Events/Data/SpawnEvent.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Framework/Networking/Systems/Client/ClientSystem.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Game/Events/Handlers/PlayerSpawnEventHandler.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Game/Physics/CollisionHandlerRegistrationSystem.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Framework/Physics/CollisionHandlers.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Framework/Physics/Systems/CollisionSystem.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Framework/Physics/Systems/PhysicsCleanupSystem.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Framework/Physics/Systems/TriggerSystem.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Framework/Physics/Systems/PhysicsSystem.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Game/Tags/MovableCubeComponent.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sWzATAcQZv0rxTMaf7oTDUmhPc" />
@@ -133,7 +165,7 @@
       <workItem from="1622378510853" duration="6279000" />
       <workItem from="1622452220190" duration="22700000" />
       <workItem from="1622575237387" duration="84000" />
-      <workItem from="1623503097068" duration="300000" />
+      <workItem from="1623503097068" duration="10569000" />
     </task>
     <servers />
   </component>
